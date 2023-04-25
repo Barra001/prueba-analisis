@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EmailValidation" Version="1.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObligatorioDa2.Domain\ObligatorioDa2.Domain.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.Exceptions\ObligatorioDa2.Exceptions.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.IAccesoDatos\ObligatorioDa2.IAccesoDatos.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.ILogicaDeNegocio\ObligatorioDa2.ILogicaDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>

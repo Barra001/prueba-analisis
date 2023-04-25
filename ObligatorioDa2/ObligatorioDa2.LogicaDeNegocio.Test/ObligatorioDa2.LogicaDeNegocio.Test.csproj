@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.3" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObligatorioDa2.AccesoDatos\ObligatorioDa2.AccesoDatos.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.Domain\ObligatorioDa2.Domain.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.IAccesoDatos\ObligatorioDa2.IAccesoDatos.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.ILogicaDeNegocio\ObligatorioDa2.ILogicaDeNegocio.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.LogicaDeNegocio\ObligatorioDa2.LogicaDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>

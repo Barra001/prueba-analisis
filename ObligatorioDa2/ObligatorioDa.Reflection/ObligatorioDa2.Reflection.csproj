@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObligatorioDa2.Domain\ObligatorioDa2.Domain.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.Exceptions\ObligatorioDa2.Exceptions.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.ILogicaDeNegocio\ObligatorioDa2.ILogicaDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>

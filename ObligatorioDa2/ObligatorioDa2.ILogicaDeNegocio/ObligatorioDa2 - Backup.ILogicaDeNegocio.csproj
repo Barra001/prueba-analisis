@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObligatorioDa2.Domain\ObligatorioDa2.Domain.csproj" />
+    <ProjectReference Include="..\ObligatorioDa2.Exceptions\ObligatorioDa2.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<ArrayOfMedicamento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Medicamento>
+    <Id>5</Id>
+    <Nombre>Perifar</Nombre>
+    <Codigo>cod4654</Codigo>
+    <Precio>2500</Precio>
+    <Stock>26</Stock>
+    <DadoDeBaja>true</DadoDeBaja>
+    <Sintomas>Vomitos y mareos</Sintomas>
+    <Presentacion>Comprimidos</Presentacion>
+    <Unidad>Miligramos</Unidad>
+    <CantidadPorPresentacion>12</CantidadPorPresentacion>
+    <Receta>false</Receta>
+  </Medicamento>
+  <Medicamento>
+    <Id>11</Id>
+    <Nombre>Dr Selby</Nombre>
+    <Codigo>cod58756</Codigo>
+    <Precio>150</Precio>
+    <Stock>235</Stock>
+    <DadoDeBaja>false</DadoDeBaja>
+    <Sintomas>Irritaciones</Sintomas>
+    <Presentacion>StickPack</Presentacion>
+    <Unidad>Mililitros</Unidad>
+    <CantidadPorPresentacion>10</CantidadPorPresentacion>
+    <Receta>false</Receta>
+  </Medicamento>
+  <Medicamento>
+    <Id>12</Id>
+    <Nombre>Humectante</Nombre>
+    <Codigo>cod5868</Codigo>
+    <Precio>2300</Precio>
+    <Stock>500</Stock>
+    <DadoDeBaja>false</DadoDeBaja>
+    <Sintomas>Secura pilaza</Sintomas>
+    <Presentacion>Liquido</Presentacion>
+    <Unidad>Mililitros</Unidad>
+    <CantidadPorPresentacion>20</CantidadPorPresentacion>
+    <Receta>false</Receta>
+  </Medicamento>
+  <Medicamento>
+    <Id>13</Id>
+    <Nombre>Vitamina C</Nombre>
+    <Codigo>cod78454</Codigo>
+    <Precio>600</Precio>
+    <Stock>1500</Stock>
+    <DadoDeBaja>false</DadoDeBaja>
+    <Sintomas>Bajas defensas</Sintomas>
+    <Presentacion>Comprimidos</Presentacion>
+    <Unidad>Comprimidos</Unidad>
+    <CantidadPorPresentacion>10</CantidadPorPresentacion>
+    <Receta>true</Receta>
+  </Medicamento>
+  <Medicamento>
+    <Id>14</Id>
+    <Nombre>Histaplen</Nombre>
+    <Codigo>cod75484</Codigo>
+    <Precio>700</Precio>
+    <Stock>350</Stock>
+    <DadoDeBaja>false</DadoDeBaja>
+    <Sintomas>Alérgia</Sintomas>
+    <Presentacion>Comprimidos</Presentacion>
+    <Unidad>Gramos</Unidad>
+    <CantidadPorPresentacion>5</CantidadPorPresentacion>
+    <Receta>true</Receta>
+  </Medicamento>
+  <Medicamento>
+    <Id>15</Id>
+    <Nombre>Alcohol</Nombre>
+    <Codigo>cod5445122</Codigo>
+    <Precio>200</Precio>
+    <Stock>3500</Stock>
+    <DadoDeBaja>false</DadoDeBaja>
+    <Sintomas>Herida infectada</Sintomas>
+    <Presentacion>Liquido</Presentacion>
+    <Unidad>Mililitros</Unidad>
+    <CantidadPorPresentacion>250</CantidadPorPresentacion>
+    <Receta>false</Receta>
+  </Medicamento>
+  <Medicamento>
+    <Id>16</Id>
+    <Nombre>Morfina</Nombre>
+    <Codigo>cod78466</Codigo>
+    <Precio>2000</Precio>
+    <Stock>0</Stock>
+    <DadoDeBaja>false</DadoDeBaja>
+    <Sintomas>Dolor extremo</Sintomas>
+    <Presentacion>Liquido</Presentacion>
+    <Unidad>Litros</Unidad>
+    <CantidadPorPresentacion>1</CantidadPorPresentacion>
+    <Receta>true</Receta>
+  </Medicamento>
+</ArrayOfMedicamento>
