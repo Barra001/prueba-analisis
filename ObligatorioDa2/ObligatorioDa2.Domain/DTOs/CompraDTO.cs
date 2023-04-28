@@ -12,7 +12,7 @@ namespace ObligatorioDa2.Domain.DTOs
         {
             FechaCompra = DateTime.Now;
             CodigoSeguimiento = GeneradorCodigoRandom.RandomCode();
-            MailComprador = "mail@prueba.com";
+            MailComprador = "mail@prueba2.com";
         }
 
         public CompraDTO(List<CantidadProductosCompra> productos, string mailComprador) : this()
